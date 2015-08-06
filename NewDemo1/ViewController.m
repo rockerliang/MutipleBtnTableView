@@ -193,7 +193,7 @@
     
     UITableViewRowAction *moreRowAction = [UITableViewRowAction rowActionWithStyle:UITableViewRowActionStyleDefault title:@"更多" handler:^(UITableViewRowAction *action, NSIndexPath *indexPath) {
         
-        NSLog(@"点击了更多");
+        NSLog(@"点击");
         
         [tableView reloadRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationMiddle];
         moreRowAction.backgroundColor = [UIColor yellowColor];
